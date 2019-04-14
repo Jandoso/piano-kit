@@ -1,0 +1,39 @@
+div{
+    display: flex;
+	margin-top: 4em;
+    margin-left: 7.5em;
+}
+
+.key {
+	border:4px solid grey;
+	border-radius: 5px;
+	margin: 1.1rem;
+	font-size: 1.5rem;
+	padding: 6.5rem 1.5rem;
+	transition: all .07s;
+	width: 22px;
+	text-align: center;
+	color:white;
+	background-color: rgba(0,0,0, 0.4);
+    text-shadow: 0 0 5px black;
+}
+
+body {
+	background-image: url(../assets/fundo.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-position: fixed;
+}
+
+.playing{
+	transform:scale(1.1);
+	border-color: #9FC5AC;
+	box-shadow: 0 0 10px #9FC5AC;
+}
+
+kbd{
+	display: block;
+	font-size: 30px;
+	color: #9FC5AC;
+}
+
